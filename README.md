@@ -49,7 +49,7 @@ Create DockerHost Without Swarm Manager
 $ docker-machine create --driver brooklyn  \
     --brooklyn-base-url https://brooklyn-test \
     --brooklyn-user brooklyn-user \
-    --brooklyn-password brooklyn-brooklyn-password --brooklyn-target-location "brooklyn-target-location" --brooklyn-target-os ubuntu:15.10 machinename
+    --brooklyn-password brooklyn-password --brooklyn-target-location "brooklyn-target-location" --brooklyn-target-os ubuntu:15.10 machinename
 ```
 
 Create DockerHost Without Swarm Manager with T-shirt size option
