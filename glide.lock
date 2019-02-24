@@ -1,0 +1,43 @@
+hash: 156ca18b268691ba999ed69c3c9427b4118939682ab965326e2c70fca5f9def5
+updated: 2016-12-05T22:46:33.9764633-08:00
+imports:
+- name: github.com/apache/brooklyn-client
+  version: c946a142aacfa71f45df21d5cc46d3966d1604be
+  subpackages:
+  - cli/api/application
+  - cli/api/entity_effectors
+  - cli/api/entity_sensors
+  - cli/api/locations
+  - cli/api/server
+  - cli/models
+  - cli/net
+  - cli/terminal
+- name: github.com/docker/docker
+  version: a8a31eff10544860d2188dddabdee4d727545796
+  subpackages:
+  - pkg/term
+- name: github.com/docker/machine
+  version: bf08cd61adc629def838220ee5f069f6f2f8591a
+  subpackages:
+  - libmachine/drivers
+  - libmachine/drivers/plugin
+  - libmachine/drivers/plugin/localbinary
+  - libmachine/drivers/rpc
+  - libmachine/log
+  - libmachine/mcnflag
+  - libmachine/mcnutils
+  - libmachine/ssh
+  - libmachine/state
+  - libmachine/version
+  - version
+- name: github.com/NodePrime/jsonpath
+  version: 84403ded544328c99be3472727667179eef23a91
+- name: github.com/urfave/cli
+  version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
+- name: golang.org/x/crypto
+  version: beef0f4390813b96e8e68fd78570396d0f4751fc
+  subpackages:
+  - curve25519
+  - ssh
+  - ssh/terminal
+testImports: []

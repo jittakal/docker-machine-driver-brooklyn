@@ -1,0 +1,11 @@
+.idea
+*.iml
+target
+
+.project
+.classpath
+.settings/
+.metadata/
+
+*.log
+brooklyn*.log.*

@@ -1,0 +1,20 @@
+package: github.com/jittakal/docker-machine-driver-brooklyn
+import:
+- package: github.com/apache/brooklyn-client
+  subpackages:
+  - cli/api/application
+  - cli/api/entity_effectors
+  - cli/api/entity_sensors
+  - cli/api/locations
+  - cli/api/server
+  - cli/models
+  - cli/net
+- package: github.com/docker/machine
+  subpackages:
+  - libmachine/drivers
+  - libmachine/drivers/plugin
+  - libmachine/log
+  - libmachine/mcnflag
+  - libmachine/mcnutils
+  - libmachine/ssh
+  - libmachine/state
